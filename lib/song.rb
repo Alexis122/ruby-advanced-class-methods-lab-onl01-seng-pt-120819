@@ -29,4 +29,6 @@ Song.all.include?
 the_middle = Song.create_by_name("The Middle")
 Song.find_by_name("The Middle")
 
+song_1 = Song.find_or_create_by_name("Blank Space")
+song_2 = Song.find_or_create_by_name("Blank Space")
 
