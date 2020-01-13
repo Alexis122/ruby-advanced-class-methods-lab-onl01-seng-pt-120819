@@ -42,4 +42,4 @@ song.artist_name
 
 Song.create_from_filename
 
-
+Song.destroy_all
