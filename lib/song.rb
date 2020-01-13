@@ -24,3 +24,6 @@ song = Song.new_by_name("The Middle")
 song.name
 
 song = Song.create_by_name("The Middle")
+Song.all.include?
+
+
