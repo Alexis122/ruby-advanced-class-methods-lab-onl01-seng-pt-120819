@@ -20,4 +20,5 @@ s.save
 song = Song.create
 Song.all.include?(song
 
+song = Song.new_by_name("The Middle")
 
